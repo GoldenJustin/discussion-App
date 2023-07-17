@@ -1,0 +1,54 @@
+name: kimbweta_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  scribble: ^0.9.1
+  file_picker: ^5.2.11
+  flutter_pdfview: ^1.0.4
+  path: ^1.6.4
+  #  syncfusion_flutter_pdfviewer: ^21.1.41
+  flutter_native_splash: ^2.2.19
+  http: ^0.13.6
+  path_provider: ^2.0.15
+  shared_preferences: ^2.0.15
+  dio: ^5.1.0
+
+
+
+flutter_native_splash:
+  background_image: images/background.png
+  image: images/KimbwetaApp2.png
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-SemiBold.ttf
+
+    - family: Montserrat2
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+
+
